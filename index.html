@@ -15,5 +15,23 @@
       src="https://sap.github.io/ui5-webcomponents/assets/js/ui5-webcomponents/bundle.esm.js"
       type="module"
     ></script>
+
+    <link
+      rel="preload"
+      href="dist-assets/ui5-yew-todo-c32797535e81b1f1_bg.wasm"
+      as="fetch"
+      type="application/wasm"
+      crossorigin=""
+    />
+    <link
+      rel="modulepreload"
+      href="dist-assets/ui5-yew-todo-c32797535e81b1f1.js"
+    />
   </head>
+  <body>
+    <script type="module">
+      import init from "dist-assets/ui5-yew-todo-c32797535e81b1f1.js";
+      init("dist-assets/ui5-yew-todo-c32797535e81b1f1_bg.wasm");
+    </script>
+  </body>
 </html>

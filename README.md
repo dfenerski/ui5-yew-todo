@@ -6,6 +6,8 @@
 
 ## About The Project
 
+Live demo can be found [here](https://dfenerski.github.io/ui5-yew-todo/)
+
 ### Built With
 
 - [UI5 Web Components](https://sap.github.io/ui5-webcomponents/)
